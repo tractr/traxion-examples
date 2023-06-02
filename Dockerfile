@@ -23,5 +23,9 @@ EXPOSE 3000
 
 COPY . .
 
+RUN cp .env.example .env
+
+RUN npx prisma generate
+
 CMD ["npm", "start"]
 
