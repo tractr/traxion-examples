@@ -89,3 +89,15 @@ railway link
 ```bash
 railway add --plugin postgresql
 ```
+
+### Push Prisma schema
+
+```bash
+railway run npx prisma db push
+```
+
+### Seed databse
+
+```bash
+railway run npx prisma db seed
+```
