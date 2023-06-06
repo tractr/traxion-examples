@@ -1,0 +1,8 @@
+{
+    "build": {
+        "watchPatterns": [
+            "prisma/**",
+            "src/**"
+        ]
+    }
+}
