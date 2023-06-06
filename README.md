@@ -57,3 +57,47 @@ npx prisma db seed
 ### Api
 
 `http://localhost:3000/api`
+
+## Railway
+
+### Install Railway
+
+```bash
+npm install -g @railway/cli
+```
+
+or
+
+```bash
+brew railway
+```
+
+## Connect to railway
+
+```bash
+railway login
+```
+
+### Link Railway
+
+```bash
+railway link
+```
+
+### Add Postgres
+
+```bash
+railway add --plugin postgresql
+```
+
+### Push Prisma schema
+
+```bash
+railway run npx prisma db push
+```
+
+### Seed databse
+
+```bash
+railway run npx prisma db seed
+```
