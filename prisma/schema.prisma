@@ -10,7 +10,7 @@ datasource db {
 generator traxion {
   provider         = "traxion-prisma-generator"
   output           = "../src/generated"
-  tsConfigFilePath  = "../../tsconfig.json"
+  tsConfigFilePath  = "../../tsconfig.json" 
 }
 
 model User {
