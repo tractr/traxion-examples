@@ -24,10 +24,3 @@ EXPOSE 3000
 COPY . .
 
 RUN npx prisma generate
-
-RUN npx prisma db push
-
-RUN npx prisma db seed
-
-CMD ["npm", "start"]
-
